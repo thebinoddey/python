@@ -1,11 +1,8 @@
-
-
 # map(function, iterable)
 numbers = [1, 2, 3, 4, 5]
+
 def square(nums):
     return nums ** 2
-
-#-----------------------------------------
 
 #map with function
 map(square, numbers) #takes each num in number and applies the function
